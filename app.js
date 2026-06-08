@@ -21,7 +21,7 @@ function obtenerUbicacion() {
 
 // 2. Función para enviar al servidor
 async function sincronizarConServidor(poste) {
-    const url = "https://levantamientos-a-r-frontend.onrender.com"; // CAMBIA POR TU URL REAL
+    const url = "https://levantamientos-a-r.onrender.com"; // CAMBIA POR TU URL REAL
     const formData = new FormData();
     formData.append("codigo", poste.codigo);
     formData.append("latitud", poste.latitud);
